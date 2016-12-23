@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Search.Models.SearchResult>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@{ Html.RenderPartial("_SearchForm"); }
